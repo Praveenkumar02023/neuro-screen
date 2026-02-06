@@ -16,7 +16,7 @@ export const Navbar = () => {
         { name: 'Analysis', path: '/' },
         { name: 'Dashboard', path: '/dashboard' },
         { name: 'Patients', path: '/patients' },
-        { name: 'Settings', path: '/settings' },
+        // { name: 'Settings', path: '/settings' },
     ];
 
     return (
