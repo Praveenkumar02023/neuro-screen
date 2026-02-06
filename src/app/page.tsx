@@ -448,7 +448,6 @@ export default function Home() {
             </motion.section>
 
             <Testimonials />
-            <Footer />
         </div>
     );
 }

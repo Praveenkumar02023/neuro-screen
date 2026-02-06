@@ -12,6 +12,8 @@ export const metadata: Metadata = {
 
 import { Providers } from "./providers";
 
+import { Footer } from "@/components/Footer";
+
 export default function RootLayout({
     children,
 }: Readonly<{
@@ -22,6 +24,7 @@ export default function RootLayout({
             <body className={`${inter.variable} ${jetbrains.variable} font-sans`}>
                 <Providers>
                     {children}
+                    <Footer />
                 </Providers>
             </body>
         </html>
