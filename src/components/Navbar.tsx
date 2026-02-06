@@ -23,10 +23,7 @@ export const Navbar = () => {
         <nav className="fixed w-full z-50 top-0 left-0 border-b border-white/5 bg-app-bg/80 backdrop-blur-xl">
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
                 <Link href="/" className="flex items-center gap-3 group">
-                    <div className="w-8 h-8 rounded-xl bg-primary-500/20 flex items-center justify-center text-primary-400 group-hover:bg-primary-500/30 transition-colors">
-                        <Zap size={18} fill="currentColor" />
-                    </div>
-                    <span className="font-semibold tracking-tight text-white text-lg">NeuroScreen<span className="text-primary-500">.ai</span></span>
+                    <span className="font-caveat font-bold tracking-tight text-white text-4xl">NeuroScreen<span className="text-primary-500">.ai</span></span>
                 </Link>
 
                 <div className="flex items-center gap-6">

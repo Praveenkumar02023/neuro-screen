@@ -16,10 +16,7 @@ export const Footer = () => {
                     {/* Brand Column */}
                     <div className="md:col-span-4 space-y-6">
                         <Link href="/" className="flex items-center gap-3 group w-fit">
-                            <div className="w-8 h-8 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group-hover:bg-primary-500/20 group-hover:border-primary-500/50 transition-all">
-                                <Zap size={18} fill="currentColor" />
-                            </div>
-                            <span className="font-semibold tracking-tight text-white text-lg">NeuroScreen<span className="text-primary-500">.ai</span></span>
+                            <span className="font-caveat font-bold tracking-tight text-white text-4xl">NeuroScreen<span className="text-primary-500">.ai</span></span>
                         </Link>
                         <p className="text-slate-500 leading-relaxed text-sm max-w-sm">
                             Pioneering the future of neurological diagnostics through advanced computer vision and machine learning.

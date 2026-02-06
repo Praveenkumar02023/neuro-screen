@@ -142,6 +142,7 @@ export default function Home() {
             <div className="min-h-screen bg-app-bg text-white selection:bg-primary-500/30">
                 <Navbar />
 
+
                 <div className="bg-app-bg relative min-h-screen pt-28 pb-12 px-6">
                     <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">
 

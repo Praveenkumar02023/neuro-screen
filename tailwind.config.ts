@@ -11,6 +11,7 @@ const config: Config = {
             fontFamily: {
                 sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
                 mono: ['var(--font-jetbrains)', 'monospace'],
+                caveat: ['var(--font-caveat)', 'cursive'],
             },
             colors: {
                 'app-bg': '#030712', // rich gray-black

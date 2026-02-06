@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Inter, JetBrains_Mono } from "next/font/google"; // Added Mono font for technical data
+import { Inter, JetBrains_Mono, Caveat } from "next/font/google"; // Added Mono font for technical data
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" });
+const caveat = Caveat({ subsets: ["latin"], variable: "--font-caveat" });
 
 export const metadata: Metadata = {
     title: "NeuroScreen AI",
@@ -21,7 +22,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${inter.variable} ${jetbrains.variable} font-sans`}>
+            <body className={`${inter.variable} ${jetbrains.variable} ${caveat.variable} font-sans`}>
                 <Providers>
                     {children}
                     <Footer />
